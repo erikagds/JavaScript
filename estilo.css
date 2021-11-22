@@ -1,0 +1,22 @@
+body{
+    background-color:palevioletred;
+    font: normal 15pt Arial;
+
+}
+header{
+    color:purple;
+    text-align: center;
+}
+ section{
+     background:cadetblue ;
+     border-radius: 10px;
+     padding: 15px ;
+     width: 400px;
+     margin: auto;
+     box-shadow: 3px 3px 10px rgba(red, green, blue, alpha);
+ }
+ footer{
+     color: black ;
+     text-align: center;
+     font-style: italic;
+ }
