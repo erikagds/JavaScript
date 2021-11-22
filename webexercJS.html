@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá Mundo!</title>
+    <style>
+        div#area {
+            font: normal 20pt arial;
+            background: rgb(42, 139, 42);
+            color: white;
+            width: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+        body {
+            background-color: pink;
+            color: black;
+            font: normal 25pt arial black;
+        }
+        h1 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    
+    <marquee direction ="left"><h1>Olá, Usuário!</h1></marquee><br>
+
+        <p> Bem vindo a nossa Newsletter! Espero que goste e possa interagir com a gente em breve :D </p>
+        
+        <script>
+           var nome = window.prompt('Qual é seu nome?');
+           window.alert('É um grande prazer,' + nome);
+           var ddd = window.prompt('Para fins de registro, qual é seu DDD?')
+           var tel = window.prompt('Por favor, insira seu telefone para receber nossas novidades:')
+           window.confirm('Esté é seu telefone?'+ ddd + tel)
+           /*o + serve para soma e também concatenação, desta forma, quando há necessidade de realizar uma conta
+           se faz necessário converter a string para number(int ou float). number()*/
+           window.document.write('Olá mundo!')
+           var p1 = document.getElementsByTagName('p')[0]
+           window.document.write(p1.innerText)
+           p1.style.color = 'white'
+        </script>
+
+</body>
+</html>
